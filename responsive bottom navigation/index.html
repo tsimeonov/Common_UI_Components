@@ -5,93 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ======================== BOXICONS ======================== -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- ======================== CSS ======================== -->
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Responsive bottom navigation</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <title>Space Tourism Website</title>
 </head>
 
-<body>
-    <!-- ======================== HEADER ======================== -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav-logo">Marloon</a>
+<body class="home">
 
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">
-                            <i class="bx bx-home-alt nav-icon"></i>
-                            <span class="nav-name">Home</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">
-                            <i class="bx bx-user nav-icon"></i>
-                            <span class="nav-name">About</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">
-                            <i class="bx bx-book-alt nav-icon"></i>
-                            <span class="nav-name">Skills</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">
-                            <i class="bx bx-briefcase-alt nav-icon"></i>
-                            <span class="nav-name">Portfolio</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#contactme" class="nav-link">
-                            <i class="bx bx-message-square-detail nav-icon"></i>
-                            <span class="nav-name">Contact me</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <img src="/perfil.png" alt="" class="nav-img">
+    <header class="primary-header flex">
+        <div>
+            <img src="./perfil.png" alt="space tourism logo" class="logo">
+        </div>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only"
+                aria-expanded="false">Menu</span></button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li><a class="hover-underline-animation ff-sans-cond uppercase text-white letter-spacing-2"
+                        href="index.html">Home</a>
+                </li>
+                <li><a class="hover-underline-animation ff-sans-cond uppercase text-white letter-spacing-2"
+                        href="#">Destination</a>
+                </li>
+                <li><a class="hover-underline-animation ff-sans-cond uppercase text-white letter-spacing-2"
+                        href="#">Crew</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <!-- ======================== HOME ======================== -->
-        <section class="container section section-height" id="home">
-            <h2 class="section-title">Home</h2>
-        </section>
 
-        <!-- ======================== ABOUT ======================== -->
-        <section class="container section section-height" id="about">
-            <h2 class="section-title">About</h2>
-        </section>
-
-        <!-- ======================== SKILLS ======================== -->
-        <section class="container section section-height" id="skills">
-            <h2 class="section-title">Skills</h2>
-        </section>
-
-        <!-- ======================== PORTFOLIO ======================== -->
-        <section class="container section section-height" id="portfolio">
-            <h2 class="section-title">Portfolio</h2>
-        </section>
-
-        <!-- ======================== CONTACT ME ======================== -->
-        <section class="container section section-height" id="contactme">
-            <h2 class="section-title">Contact me</h2>
-        </section>
     </main>
 
-    <!-- ======================== JS ======================== -->
-    <script src="app"></script>
+    <script src="app.js" defer></script>
 </body>
 
 </html>
