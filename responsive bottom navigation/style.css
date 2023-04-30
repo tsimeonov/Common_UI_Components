@@ -1,55 +1,6 @@
 /* ------------------- */
-/* Custom properties   */
-/* ------------------- */
-/*
-:root {
-
-  --clr-dark: 230 35% 7%;
-  --clr-light: 231 77% 90%;
-  --clr-white: 0 0% 100%;
-
-
-  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
-  --fs-800: 3.5rem;
-  --fs-700: 1.5rem;
-  --fs-600: 1rem;
-  --fs-500: 1rem;
-  --fs-400: 0.9375rem;
-  --fs-300: 1rem;
-  --fs-200: 0.875rem;
-
-
-  --ff-serif: "Bellefair", serif;
-  --ff-sans-cond: "Barlow Condensed", sans-serif;
-  --ff-sans-normal: "Barlow", sans-serif;
-}
-
-@media (min-width: 35em) {
-  :root {
-    --fs-800: 5rem;
-    --fs-700: 2.5rem;
-    --fs-600: 1.5rem;
-    --fs-500: 1.25rem;
-    --fs-400: 1rem;
-  }
-}
-
-@media (min-width: 45em) {
-  :root {
-
-    --fs-800: 6.25rem;
-    --fs-700: 3.5rem;
-    --fs-600: 2rem;
-    --fs-500: 1.75rem;
-    --fs-400: 1.125rem;
-  }
-} */
-/*
-/* ------------------- */
 /* Reset               */
 /* ------------------- */
-
-/* https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Box sizing */
 *,
@@ -84,15 +35,10 @@ p {
 /* set up the body */
 body {
   font-family: "Barlow", sans-serif;
-  font-size: 18px;
-  color: #000;
+  font-size: 20px;
+  color: black;
   line-height: 1.5;
   min-height: 100vh;
-
-  /* display: grid;
-  grid-template-rows: min-content 1fr;
-
-  overflow-x: hidden; */
 }
 
 /* make images easier to work with */
@@ -100,14 +46,6 @@ img,
 picutre {
   max-width: 100%;
   display: block;
-}
-
-/* make form elements easier to work with */
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 /* remove animations for people who've turned them off */
@@ -133,15 +71,6 @@ select {
   gap: var(--gap, 1rem);
 }
 
-/* .grid {
-  display: grid;
-  gap: var(--gap, 1rem);
-} */
-
-/* .d-block {
-  display: block;
-} */
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -153,6 +82,8 @@ select {
   white-space: nowrap; /* added line */
   border: 0;
 }
+
+/* typography */
 
 .letter-spacing-1 {
   letter-spacing: 4.75px;
@@ -180,6 +111,11 @@ select {
   margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
 }
 
+.primary-header {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .primary-navigation {
   --gap: clamp(1.5rem, 5vw, 3.5rem);
   --underline-gap: 2rem;
@@ -192,6 +128,11 @@ select {
 
 .primary-navigation a {
   text-decoration: none;
+}
+
+.primary-navigation a > span {
+  font-weight: 700;
+  margin-right: 0.5em;
 }
 
 .hover-underline-animation {
@@ -207,7 +148,7 @@ select {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: black;
   transform-origin: bottom left;
   transition: transform 0.35s ease-out;
 }
@@ -227,7 +168,6 @@ select {
   }
 
   .primary-navigation {
-    --underline-gap: 0.5rem;
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 0;
@@ -303,11 +243,3 @@ select {
     order: 2;
   }
 }
-
-/* ----------------------------- */
-/* Page specific background      */
-/* ----------------------------- */
-
-/* ----------------------------- */
-/* Layout                        */
-/* ----------------------------- */
