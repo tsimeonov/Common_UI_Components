@@ -7,4 +7,4 @@ The responsive navigation menu is a navigation bar that adapts to different scre
 ## FAQ
 The FAQ (Frequently Asked Questions) component is a helpful and commonly used web component that provides answers to the most common questions. This component is typically used on websites to help users find answers to frequently asked questions related to the products, services or business. The FAQ component provides a simple and easy-to-use interface for users to find answers quickly and easily.
 
-live link - - Live Site https://tsimeonov.github.io/Space-Travel-Site/code/index.html
+live link - https://tsimeonov.github.io/UI-Components/faq/
