@@ -6,6 +6,7 @@ body {
 
 header {
   background-color: #f3f3f3;
+  padding: 1rem;
   display: flex;
   align-items: baseline;
   gap: 1rem;
@@ -49,4 +50,20 @@ header {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
+}
+
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 2rem;
+}
+
+.dropdown-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.login-form > input {
+  margin-bottom: 0.5rem;
 }
