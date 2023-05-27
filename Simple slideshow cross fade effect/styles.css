@@ -54,7 +54,7 @@ p {
 }
 
 /************ Animation Styles ************/
-.fadeinImg {
+.fadeInImg {
   animation: fadein 1s;
 }
 

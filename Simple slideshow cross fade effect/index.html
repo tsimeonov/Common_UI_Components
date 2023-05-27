@@ -18,6 +18,37 @@
 
     <p id="links"><a href="#" id="previous">previous</a><a href="#" id="next">next</a></p>
 
+    <script>
+        let myImages = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+        let currentImage = 0;
+        let container = document.getElementById('content')
+        let next = document.getElementById('next')
+        let prev = document.getElementById('previous')
+
+        next.addEventListener('click', function (event) {
+            event.preventDefault()
+
+            currentImage++
+            if (currentImage > myImages.length - 1) {
+                currentImage = 0
+            }
+
+            // Adding the new slide on top
+            // 1. Create a new image element
+            let newSlide = document.createElement('img')
+            // 2. Set the source attribute
+            newSlide.src = `slides/${myImages[currentImage]}`
+            // 3. Set the class name
+            newSlide.className = 'fadeInImg'
+            // 4. Append it to the container
+            container.appendChild(newSlide)
+
+
+
+
+
+        })
+    </script>
 </body>
 
 </html>
