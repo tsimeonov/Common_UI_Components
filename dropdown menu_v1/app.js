@@ -9,8 +9,8 @@ document.addEventListener("click", (e) => {
   }
 
   // Close all not active dropdowns
-  document.querySelectorAll(".dropdown").forEach((dropdonw) => {
-    if (dropdonw === currentDropDown) return;
-    dropdonw.classList.remove("active");
+  document.querySelectorAll(".dropdown").forEach((dropdown) => {
+    if (dropdown === currentDropDown) return;
+    dropdown.classList.remove("active");
   });
 });
