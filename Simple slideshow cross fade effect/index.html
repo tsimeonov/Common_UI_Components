@@ -48,6 +48,30 @@
                 container.removeChild(container.children[0])
             }
         })
+
+        prev.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            currentImage--
+            if (currentImage < 0) {
+                currentImage = myImages.length - 1
+            }
+            // Adding the new slide on top
+            // 1. Create a new image element
+            let newSlide = document.createElement('img')
+            // 2. Set the source attribute
+            newSlide.src = `slides/${myImages[currentImage]}`
+            // 3. Set the class name
+            newSlide.className = 'fadeInImg'
+            // 4. Append it to the container
+            container.appendChild(newSlide)
+
+            // Remove extra children
+            if (container.children.length > 2) {
+                container.removeChild(container.children[0])
+            }
+
+        })
     </script>
 </body>
 
