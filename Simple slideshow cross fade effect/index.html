@@ -43,10 +43,10 @@
             // 4. Append it to the container
             container.appendChild(newSlide)
 
-
-
-
-
+            // Remove extra children
+            if (container.children.length > 2) {
+                container.removeChild(container.children[0])
+            }
         })
     </script>
 </body>
