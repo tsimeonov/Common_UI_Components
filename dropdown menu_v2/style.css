@@ -18,7 +18,6 @@ header {
 
 .dropdown-header > li {
   list-style: none;
-
   padding-left: 20px;
 }
 
@@ -36,6 +35,8 @@ header {
   width: 100vw;
   background-color: aliceblue;
   border-radius: 34% 36% 70% 31% / 0% 0% 60% 39%;
+  /* opacity: 0;
+  transition: opacity 2s ease-in-out; */
 }
 
 .dropdown-menu > ul {
