@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let items = document.querySelectorAll("ul li a");
+  let items = document.querySelectorAll(".dropdown-header li a");
   let dropdownMenus = document.querySelectorAll(".dropdown-menu");
 
   function closeAllDropdownMenus() {
     dropdownMenus.forEach(function (dropdownMenu) {
-      dropdownMenu.style.display = "none";
-      dropdownMenu.style.opacity = "0";
-      dropdownMenu.style.height = "0";
-      dropdownMenu.style.transition = "opacity 2s ease-in-out";
-      dropdownMenu.style.outline = "1px solid red";
+      dropdownMenu.classList.remove("show");
     });
   }
 
@@ -18,10 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       closeAllDropdownMenus();
       let target = this.getAttribute("data-target");
       let dropdownMenu = document.getElementById(target);
-      dropdownMenu.style.display = "block";
-      dropdownMenu.style.opacity = "1";
-      dropdownMenu.style.height = "auto";
-      dropdownMenu.style.outline = "1px solid blue";
+      dropdownMenu.classList.add("show");
     });
   });
 

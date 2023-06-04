@@ -14,6 +14,7 @@ header {
   background-color: lightgrey;
   margin: 0;
   padding: 10px 0;
+  border-radius: 5px;
 }
 
 .dropdown-header > li {
@@ -28,15 +29,22 @@ header {
 }
 
 .dropdown-menu {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
   left: 0;
   right: 0;
   width: 100vw;
-  background-color: aliceblue;
   border-radius: 34% 36% 70% 31% / 0% 0% 60% 39%;
-  /* opacity: 0;
-  transition: opacity 2s ease-in-out; */
+  -webkit-box-shadow: 10px 10px 12px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 12px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 6px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .dropdown-menu > ul {
