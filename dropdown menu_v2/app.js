@@ -12,8 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     item.addEventListener("mouseover", function (e) {
       e.preventDefault();
       closeAllDropdownMenus();
-      let target = this.getAttribute("data-target");
-      let dropdownMenu = document.getElementById(target);
+      let dropdownMenu = this.parentElement.nextElementSibling;
       dropdownMenu.classList.add("show");
     });
   });
