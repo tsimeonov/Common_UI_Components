@@ -23,6 +23,8 @@ Live link - https://tsimeonov.github.io/UI-Components/faq/
 
 A responsive mega menu is a user interface element commonly used in web design to efficiently organize and navigate complex websites or applications. It provides a visually appealing and space-saving way to display a large volume of information, such as navigation links, categories, or content previews.
 
-<img src="./faq/faq.png" width="600px"/>
+<img src="./Responsive-mega-menu /responsive-mega-menu.png" width="800px"/>
 
-Live link - https://tsimeonov.github.io/UI-Components/faq/
+Live link - https://tsimeonov.github.io/UI-Components/Responsive-mega-menu%20/
+
+--- 
