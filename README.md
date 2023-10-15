@@ -28,4 +28,4 @@ A simple responsive menu built with HTML, CSS and JS.
 
 Live link - https://tsimeonov.github.io/UI-Components/Responsive-mega-menu%20/
 
-----
+---
