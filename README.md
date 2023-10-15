@@ -21,3 +21,11 @@ A responsive mega menu is a user interface element commonly used in web design t
 Live link - https://tsimeonov.github.io/UI-Components/Responsive-mega-menu%20/
 
 --- 
+
+## Simple Responsive menu
+
+A simple responsive menu built with HTML, CSS and JS.
+
+Live link - https://tsimeonov.github.io/UI-Components/Responsive-mega-menu%20/
+
+---
