@@ -24,5 +24,6 @@ footer .wave {
   top: -100px;
   width: 100%;
   height: 100px;
-  background: #f00;
+  background: url(wave.png);
+  background-size: 1000px 100px;
 }
