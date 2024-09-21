@@ -31,7 +31,7 @@ footer .wave {
 footer .wave#wave1 {
   z-index: 1;
   opacity: 1;
-  animation: 4s linear infinite;
+  animation: animate 4s linear infinite;
 }
 
 @keyframes animate {
