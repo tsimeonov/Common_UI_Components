@@ -45,8 +45,8 @@ footer .wave#wave3 {
 footer .wave#wave2 {
   z-index: 1;
   opacity: 0.5;
-  bottom: 15px;
-  animation: animate2 3s linear infinite;
+  bottom: 0px;
+  animation: animate2 4s linear infinite;
 }
 
 @keyframes animate {
@@ -55,5 +55,14 @@ footer .wave#wave2 {
   }
   100% {
     background-position: 0;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 1000px;
   }
 }
