@@ -42,6 +42,13 @@ footer .wave#wave3 {
   animation: animate 3s linear infinite;
 }
 
+footer .wave#wave2 {
+  z-index: 1;
+  opacity: 0.5;
+  bottom: 15px;
+  animation: animate2 3s linear infinite;
+}
+
 @keyframes animate {
   0% {
     background-position: 1000px;
