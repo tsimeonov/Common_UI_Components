@@ -30,9 +30,16 @@ footer .wave {
 
 footer .wave#wave1 {
   z-index: 1;
-  opacity: 0.2;
+  opacity: 1;
   bottom: 0px;
   animation: animate 4s linear infinite;
+}
+
+footer .wave#wave3 {
+  z-index: 1;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animate 3s linear infinite;
 }
 
 @keyframes animate {
