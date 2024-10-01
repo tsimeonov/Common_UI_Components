@@ -33,4 +33,5 @@ header .logo {
 header ul {
   position: relative;
   display: flex;
+  gap: 30px;
 }
