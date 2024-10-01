@@ -35,3 +35,7 @@ header ul {
   display: flex;
   gap: 30px;
 }
+
+header ul li {
+  list-style: none;
+}
