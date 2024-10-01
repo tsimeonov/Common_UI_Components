@@ -11,3 +11,14 @@
 body {
   background: #fbc87e;
 }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  z-index: 1;
+}
