@@ -71,3 +71,7 @@ section#about {
   justify-content: space-between;
   align-items: center;
 }
+
+.container .textBx {
+  max-width: 50%;
+}
