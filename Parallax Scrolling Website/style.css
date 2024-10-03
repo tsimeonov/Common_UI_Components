@@ -89,3 +89,7 @@ section#about {
 .imgBx {
   width: 40%;
 }
+
+.imgBx img {
+  max-width: 100%;
+}
