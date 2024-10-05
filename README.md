@@ -29,3 +29,7 @@ A simple responsive menu built with HTML, CSS and JS.
 Live link - https://tsimeonov.github.io/UI-Components/Simple-responsive-menu/index.html
 
 ---
+
+## Paralax Scrolling
+
+Link to https://tsimeonov.github.io/UI-Components/Parallax%20Scrolling%20Website/
