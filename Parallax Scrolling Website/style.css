@@ -84,6 +84,7 @@ section#about {
 .container .textBx p {
   font-size: 1.1em;
   color: #792a0d;
+  /* outline: 1px solid red; */
 }
 
 .imgBx {
