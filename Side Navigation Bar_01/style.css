@@ -64,6 +64,10 @@ body {
 }
 
 .sidebar-nav .nav-link {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 15px;
   color: #fff;
   text-decoration: none;
 }
