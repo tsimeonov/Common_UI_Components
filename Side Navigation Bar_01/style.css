@@ -89,6 +89,10 @@ body {
   background-color: #fff;
 }
 
+.sidebar-nav .nav-link .nav-label {
+  transition: 0.4s ease;
+}
+
 .sidebar.collapsed .sidebar-nav .nav-link .nav-label {
   opacity: 0;
   pointer-events: none;
