@@ -74,4 +74,11 @@ body {
   padding: 12px 15px;
   color: #fff;
   text-decoration: none;
+  transition: 0.5s ease;
+  border-radius: 8px;
+}
+
+.sidebar-nav .nav-link:hover {
+  color: #151a2d;
+  background-color: #fff;
 }
