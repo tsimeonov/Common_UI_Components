@@ -83,3 +83,9 @@ body {
   color: #151a2d;
   background-color: #fff;
 }
+
+.sidebar-nav .secondary-nav {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
