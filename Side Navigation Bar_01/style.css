@@ -17,6 +17,13 @@ body {
   background: #151a2d;
 }
 
+.sidebar-header {
+  display: flex;
+  padding: 25px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .sidebar-header .header-logo img {
   width: 56px;
   height: 56px;
