@@ -16,3 +16,8 @@ body {
 .sidebar {
   background: #151a2d;
 }
+
+.sidebar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
