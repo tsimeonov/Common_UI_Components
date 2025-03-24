@@ -80,6 +80,10 @@ body {
   transform: translateY(15px);
 }
 
+.sidebar.collapsed .sidebar-nav .primary-nav {
+  transform: translateY(15px);
+}
+
 .sidebar-nav .nav-link {
   display: flex;
   gap: 12px;
