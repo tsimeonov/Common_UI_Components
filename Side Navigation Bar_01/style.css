@@ -59,6 +59,10 @@ body {
   transition: 0.5s ease;
 }
 
+.sidebar.sidebar.collapsed .sidebar-header .sidebar-toggler {
+  transform: translate(-4px, 65px);
+}
+
 .sidebar-header .sidebar-toggler:hover {
   background: #dde4fb;
 }
