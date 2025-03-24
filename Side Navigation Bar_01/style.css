@@ -37,6 +37,19 @@ body {
   border-radius: 50%;
 }
 
+.sidebar-header .toggler {
+  height: 35px;
+  width: 35px;
+  border: none;
+  color: #151a2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #fff;
+}
+
 .sidebar-nav .nav-list {
   list-style: none;
 }
