@@ -50,6 +50,10 @@ body {
   background: #fff;
 }
 
+.sidebar-header .toggler span {
+  font-size: 1.75rem;
+}
+
 .sidebar-nav .nav-list {
   list-style: none;
 }
