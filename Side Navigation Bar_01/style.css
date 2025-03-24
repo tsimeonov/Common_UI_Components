@@ -28,6 +28,7 @@ body {
 }
 
 .sidebar-header {
+  position: relative;
   display: flex;
   padding: 25px 20px;
   align-items: center;
@@ -43,6 +44,8 @@ body {
 }
 
 .sidebar-header .sidebar-toggler {
+  position: absolute;
+  right: 20px;
   height: 35px;
   width: 35px;
   border: none;
