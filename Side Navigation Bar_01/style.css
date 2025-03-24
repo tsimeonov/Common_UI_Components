@@ -17,6 +17,14 @@ body {
   background: #151a2d;
 }
 
+.sidebar-header .header-logo img {
+  width: 56px;
+  height: 56px;
+  display: block;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 .sidebar-nav .nav-link {
   color: #fff;
   text-decoration: none;
